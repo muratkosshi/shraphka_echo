@@ -1,0 +1,48 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.coverprofile
+
+# Configuration files
+.env
+
+# Ignore vendor directories
+/vendor/
+/bin/
+/dist/
+
+# IDE specific files
+.idea/
+*.iml
+.vscode/
+
+# MacOS specific files
+.DS_Store
+
+# Log files
+*.log
+
+# Coverage files
+coverage.out
+
+# Git specific files
+.git/
+.gitignore
+
+# Migration files (compiled)
+migrations/*.up.sql
+migrations/*.down.sql
+
+# Go build artifacts
+/go.sum
+/go.mod
+
+# Compiled binary
+/tmp/
